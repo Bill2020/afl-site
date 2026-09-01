@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Automation For Local — AI tools for local business, explained simply">
+	<section class="max-w-3xl mx-auto px-6 py-24 text-center">
+		<h1 class="text-4xl md:text-5xl font-bold tracking-tight">
+			AI tools for local business, <span class="text-cyan">explained simply</span>.
+		</h1>
+		<p class="mt-6 text-lg text-white/70">
+			Practical, no-hype breakdowns of the AI tools actually worth using if you run a local
+			business — reviewed, tested, and explained in plain English.
+		</p>
+
+		<form class="mt-10 flex flex-col sm:flex-row gap-3 justify-center" action="#" method="post">
+			<label for="email" class="sr-only">Email address</label>
+			<input
+				id="email"
+				name="email"
+				type="email"
+				required
+				placeholder="you@yourbusiness.com"
+				class="w-full sm:w-80 rounded-md bg-white/5 border border-white/15 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-cyan"
+			/>
+			<button
+				type="submit"
+				class="rounded-md bg-blue px-6 py-3 font-semibold text-white hover:opacity-90 transition-opacity"
+			>
+				Get the tools
+			</button>
+		</form>
+
+		<p class="mt-16 text-white/60">
+			No fluff, no affiliate spam disguised as advice — just the tools we'd actually recommend
+			to a friend running a local business.
+		</p>
+	</section>
+</BaseLayout>
