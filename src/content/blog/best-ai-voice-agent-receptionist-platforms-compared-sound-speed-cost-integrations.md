@@ -268,5 +268,3 @@ Don't choose based on price alone. A low-cost option that doesn't work reliably 
 Start with a free trial. Make real calls to the system. See if it sounds natural, handles your questions, and integrates with your tools. Then decide.
 
 ---
-
-<small>Affiliate Disclosure: This article contains affiliate links. We may earn a commission if you purchase through these links at no additional cost to you.</small>
