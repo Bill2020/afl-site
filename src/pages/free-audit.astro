@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout 
+  title="Free AI Time-Saver Audit — Automation For Local"
+  description="Reclaim 5+ hours a week with simple AI tools. No code required. Free workbook for local business owners.">
+
+  <section class="max-w-2xl mx-auto px-6 py-24 text-center">
+    <p class="text-cyan text-sm font-semibold uppercase tracking-widest mb-4">Free Resource</p>
+    <h1 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
+      How to Reclaim 5+ Hours a Week with Simple AI Tools<span class="text-cyan">—Without Writing a Single Line of Code.</span>
+    </h1>
+    <p class="mt-6 text-lg text-white/70">
+      Get instant access to the Local Business AI Time-Saver Audit & 4-Day Quick-Start Plan. A plain-English, zero-tech workbook designed specifically for busy local business owners.
+    </p>
+
+    <form class="mt-10 flex flex-col gap-4 max-w-md mx-auto" action="#" method="post">
+      <input
+        name="first_name"
+        type="text"
+        required
+        placeholder="First name"
+        class="w-full rounded-md bg-white/5 border border-white/15 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-cyan"
+      />
+      <input
+        name="email"
+        type="email"
+        required
+        placeholder="you@yourbusiness.com"
+        class="w-full rounded-md bg-white/5 border border-white/15 px-4 py-3 text-white placeholder:text-white/40 focus:outline-none focus:border-cyan"
+      />
+      <select
+        name="annual_revenue"
+        required
+        class="w-full rounded-md bg-navy border border-white/15 px-4 py-3 text-white focus:outline-none focus:border-cyan">
+        <option value="" disabled selected>What is your estimated annual revenue?</option>
+        <option value="under_150k">Under $150k</option>
+        <option value="150k_500k">$150k - $500k</option>
+        <option value="500k_plus">$500k+</option>
+      </select>
+      <button
+        type="submit"
+        class="w-full rounded-md bg-cyan px-6 py-4 font-bold text-navy text-lg hover:opacity-90 transition-opacity">
+        Send Me the Free Blueprint
+      </button>
+    </form>
+
+    <ul class="mt-12 text-left space-y-4 text-white/70 text-sm max-w-md mx-auto">
+      <li class="flex gap-3"><span class="text-cyan font-bold">✓</span> The 5-Minute Time-Drain Checklist — pinpoint exactly where your hours are leaking</li>
+      <li class="flex gap-3"><span class="text-cyan font-bold">✓</span> The No-Code AI Prescription List — 9 tools you can set up in under 5 minutes</li>
+      <li class="flex gap-3"><span class="text-cyan font-bold">✓</span> The 4-Day Micro-Step Action Calendar — 10 minutes a day, no tech background required</li>
+      <li class="flex gap-3"><span class="text-cyan font-bold">✓</span> The Effort vs. Impact Matrix — know exactly when to DIY and when to bring in pros</li>
+    </ul>
+
+    <div class="mt-16 border-t border-white/10 pt-10 space-y-6 text-left max-w-md mx-auto">
+      <div>
+        <p class="font-semibold text-white">Is this going to be too technical for me?</p>
+        <p class="mt-1 text-white/60 text-sm">No. If you can send an email or use a smartphone, you have all the skills required. No code, no developer jargon.</p>
+      </div>
+      <div>
+        <p class="font-semibold text-white">Is this actually free?</p>
+        <p class="mt-1 text-white/60 text-sm">Yes. We earn small affiliate commissions if you choose to use any tools we recommend, at no extra cost to you. We also run a marketing automation agency called Peak Level Marketing for businesses that want custom systems built for them.</p>
+      </div>
+      <div>
+        <p class="font-semibold text-white">Will you spam me?</p>
+        <p class="mt-1 text-white/60 text-sm">Never. Plain-English AI tool breakdowns, once or twice a week. Unsubscribe anytime with one click.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
